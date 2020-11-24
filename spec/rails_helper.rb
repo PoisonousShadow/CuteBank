@@ -31,9 +31,19 @@ rescue ActiveRecord::PendingMigrationError => e
   exit 1
 end
 RSpec.configure do |config|
+  config.include Devise::Test::ControllerHelpers, type: :controller
+
+  config.include Devise::TestHelpers, type: :view
+  config.include ApplicationHelper
+  config.include UserHelper
+  
+  config.include FactoryBot::Syntax::Methods
+
+  # config.include AuthenticationHelper::RequestMixin, type: :request
+  # config.include AuthenticationHelper::ControllerMixin, type: :controller
+
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
-
   # If you're not using ActiveRecord, or you'd prefer not to run each of your
   # examples within a transaction, remove the following line or assign false
   # instead of true.

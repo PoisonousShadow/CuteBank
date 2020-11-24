@@ -1,6 +1,6 @@
 RSpec.describe CashMachine, :type => :model do
   before(:all) do
-    @cash_machine = CashMachine.create
+    @cash_machine = CashMachine.create(id: 1)
     @cash_machine.reload #for sync with db
     @i = -2
     @u = User.new(email: 'user@gmail.com', password: '123456')

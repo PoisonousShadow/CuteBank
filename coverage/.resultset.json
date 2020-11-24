@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/kali/myPr/CuteBank/spec/rails_helper.rb": {
+      "/home/kali/CuteBank/spec/rails_helper.rb": {
         "lines": [
           null,
           1,
@@ -36,9 +36,19 @@
           0,
           null,
           1,
+          1,
+          null,
+          1,
+          1,
+          1,
           null,
           1,
           null,
+          null,
+          null,
+          null,
+          null,
+          1,
           null,
           null,
           null,
@@ -76,7 +86,7 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/config/environment.rb": {
+      "/home/kali/CuteBank/config/environment.rb": {
         "lines": [
           null,
           null,
@@ -87,7 +97,7 @@
           1
         ]
       },
-      "/home/kali/myPr/CuteBank/config/application.rb": {
+      "/home/kali/CuteBank/config/application.rb": {
         "lines": [
           null,
           null,
@@ -112,7 +122,7 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/config/boot.rb": {
+      "/home/kali/CuteBank/config/boot.rb": {
         "lines": [
           null,
           null,
@@ -122,7 +132,7 @@
           1
         ]
       },
-      "/home/kali/myPr/CuteBank/config/environments/test.rb": {
+      "/home/kali/CuteBank/config/environments/test.rb": {
         "lines": [
           null,
           null,
@@ -177,7 +187,7 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/config/initializers/application_controller_renderer.rb": {
+      "/home/kali/CuteBank/config/initializers/application_controller_renderer.rb": {
         "lines": [
           null,
           null,
@@ -190,7 +200,7 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/config/initializers/assets.rb": {
+      "/home/kali/CuteBank/config/initializers/assets.rb": {
         "lines": [
           null,
           null,
@@ -210,7 +220,7 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/config/initializers/backtrace_silencers.rb": {
+      "/home/kali/CuteBank/config/initializers/backtrace_silencers.rb": {
         "lines": [
           null,
           null,
@@ -222,7 +232,7 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/config/initializers/content_security_policy.rb": {
+      "/home/kali/CuteBank/config/initializers/content_security_policy.rb": {
         "lines": [
           null,
           null,
@@ -257,7 +267,7 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/config/initializers/cookies_serializer.rb": {
+      "/home/kali/CuteBank/config/initializers/cookies_serializer.rb": {
         "lines": [
           null,
           null,
@@ -268,7 +278,7 @@
           1
         ]
       },
-      "/home/kali/myPr/CuteBank/config/initializers/devise.rb": {
+      "/home/kali/CuteBank/config/initializers/devise.rb": {
         "lines": [
           null,
           null,
@@ -277,7 +287,7 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/config/initializers/filter_parameter_logging.rb": {
+      "/home/kali/CuteBank/config/initializers/filter_parameter_logging.rb": {
         "lines": [
           null,
           null,
@@ -287,7 +297,7 @@
           1
         ]
       },
-      "/home/kali/myPr/CuteBank/config/initializers/inflections.rb": {
+      "/home/kali/CuteBank/config/initializers/inflections.rb": {
         "lines": [
           null,
           null,
@@ -308,7 +318,7 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/config/initializers/mime_types.rb": {
+      "/home/kali/CuteBank/config/initializers/mime_types.rb": {
         "lines": [
           null,
           null,
@@ -317,7 +327,7 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/config/initializers/wrap_parameters.rb": {
+      "/home/kali/CuteBank/config/initializers/wrap_parameters.rb": {
         "lines": [
           null,
           null,
@@ -337,7 +347,18 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/config/routes.rb": {
+      "/home/kali/CuteBank/spec/factories/users.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/home/kali/CuteBank/config/routes.rb": {
         "lines": [
           null,
           null,
@@ -356,7 +377,7 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/app/models/user.rb": {
+      "/home/kali/CuteBank/app/models/user.rb": {
         "lines": [
           null,
           null,
@@ -408,7 +429,7 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/app/models/application_record.rb": {
+      "/home/kali/CuteBank/app/models/application_record.rb": {
         "lines": [
           null,
           null,
@@ -417,7 +438,7 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/app/helpers/admin_helper.rb": {
+      "/home/kali/CuteBank/app/helpers/admin_helper.rb": {
         "lines": [
           null,
           null,
@@ -425,7 +446,7 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/app/helpers/application_helper.rb": {
+      "/home/kali/CuteBank/app/helpers/application_helper.rb": {
         "lines": [
           null,
           null,
@@ -433,7 +454,7 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/app/helpers/main_helper.rb": {
+      "/home/kali/CuteBank/app/helpers/main_helper.rb": {
         "lines": [
           null,
           null,
@@ -441,7 +462,7 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/app/helpers/user_helper.rb": {
+      "/home/kali/CuteBank/app/helpers/user_helper.rb": {
         "lines": [
           null,
           null,
@@ -449,7 +470,7 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/spec/models/cash_machine_spec.rb": {
+      "/home/kali/CuteBank/spec/models/cash_machine_spec.rb": {
         "lines": [
           1,
           1,
@@ -494,7 +515,7 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/app/models/cash_machine.rb": {
+      "/home/kali/CuteBank/app/models/cash_machine.rb": {
         "lines": [
           null,
           null,
@@ -544,7 +565,7 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/spec/models/user_spec.rb": {
+      "/home/kali/CuteBank/spec/models/user_spec.rb": {
         "lines": [
           1,
           null,
@@ -553,12 +574,16 @@
           1,
           1,
           1,
-          null,
-          1,
           1,
           null,
           1,
           1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
           1,
           1,
           1001,
@@ -582,7 +607,7 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/spec/models/users_history_record_spec.rb": {
+      "/home/kali/CuteBank/spec/models/users_history_record_spec.rb": {
         "lines": [
           1,
           null,
@@ -594,7 +619,7 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/app/models/users_history_record.rb": {
+      "/home/kali/CuteBank/app/models/users_history_record.rb": {
         "lines": [
           null,
           null,
@@ -603,13 +628,55 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/spec/requests/admin_controller_request_spec.rb": {
+      "/home/kali/CuteBank/spec/requests/admin_controller_request_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
           1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null,
           null,
           null,
@@ -617,26 +684,13 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/spec/requests/main_controller_request_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/home/kali/myPr/CuteBank/app/controllers/application_controller.rb": {
+      "/home/kali/CuteBank/app/controllers/admin_controller.rb": {
         "lines": [
           null,
           null,
           1,
           1,
+          1,
           null,
           1,
           0,
@@ -645,9 +699,10 @@
           1,
           0,
           null,
-          null,
-          1,
           0,
+          0,
+          0,
+          null,
           0,
           null,
           0,
@@ -656,16 +711,46 @@
           null
         ]
       },
-      "/home/kali/myPr/CuteBank/app/controllers/main_controller.rb": {
+      "/home/kali/CuteBank/app/controllers/application_controller.rb": {
         "lines": [
           null,
           null,
           1,
           1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/kali/CuteBank/spec/requests/main_controller_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1605455925
+    "timestamp": 1606219912
   }
 }
