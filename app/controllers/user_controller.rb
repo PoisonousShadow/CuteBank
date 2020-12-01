@@ -38,7 +38,7 @@ class UserController < ApplicationController
     end
   end
 
-  def withdraw(amount)
+  def withdraw(amount = 0)
     @user = User.find(current_user.id)
 
     if User.withdraw(amount, @user)
@@ -57,12 +57,13 @@ class UserController < ApplicationController
     hash = params.require(:user).permit(:current_balance, :commit)
     hash[:commit] = params[:commit]
     sum_int = hash[:current_balance].to_f
-
     case hash[:commit]
     when 'Withdraw'
-      withdraw(sum_int)
+       withdraw(sum_int)
+       return true
     when 'Deposit'
       deposit(sum_int)
+      return true
     end
   end
 
