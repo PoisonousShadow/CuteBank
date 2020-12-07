@@ -38,7 +38,7 @@ class UserController < ApplicationController
     end
   end
 
-  def withdraw(amount = 0)
+  def withdraw(amount)
     @user = User.find(current_user.id)
 
     if User.withdraw(amount, @user)
@@ -57,17 +57,16 @@ class UserController < ApplicationController
     hash = params.require(:user).permit(:current_balance, :commit)
     hash[:commit] = params[:commit]
     sum_int = hash[:current_balance].to_f
+
     case hash[:commit]
     when 'Withdraw'
-       withdraw(sum_int)
-       return true
+      withdraw(sum_int)
     when 'Deposit'
       deposit(sum_int)
-      return true
     end
   end
 
-  # redirecting admin to admin page
+  # redirecting admin user to admin page
 
   def check_if_admin
     redirect_to controller: 'admin', action: 'index' if current_user.user_is_admin?
