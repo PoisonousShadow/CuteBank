@@ -3,12 +3,12 @@
 class ApplicationController < ActionController::Base
   protected
 
-  def after_sign_in_path_for(resource)
-    stored_location_for(resource) || user_index_path
+  def after_sign_in_path_for(_resource)
+    user_index_path
   end
 
-  def after_sign_out_path_for(resource)
-    stored_location_for(resource) || main_index_path
+  def after_sign_out_path_for(_resource)
+    main_index_path
   end
 
   def require_admin
